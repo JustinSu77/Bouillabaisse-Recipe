@@ -1,0 +1,100 @@
+main{
+    box-sizing: border-box;
+    max-width: 600px;
+    height:  auto;
+    margin: 20px auto;
+    border: 5px solid darkorange;
+    background-color: bisque
+}
+
+.title{
+    font-size: 3.5rem;
+    text-align: center;
+    font-weight: bold;
+    
+}
+
+.soup{
+    display: block;
+    margin-top: 20px;
+    height: 300px;
+    width: 100%;
+}
+
+.info-container{
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    height: 50px;
+    background-color: aqua;
+}
+
+.section-heading{
+    font-weight: 500;
+    font-size: 2rem;
+    margin: 10px;
+}
+
+.info{
+    background-color: white;
+    width: 180px;
+}
+
+.info-title,
+.info-text{
+    text-align: center;
+    margin: 5px;
+}
+
+.info-title{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+ .sub-heading{
+    font-size: 1.8rem;
+    font-weight: 500;
+    margin-left: 30px;
+    color: brown;
+ }
+
+ .ingredients-list{
+    margin-left: 20px;
+    
+    list-style-type: disc;
+    color: darkred;
+ }
+
+ .ingredients-list li{
+    font-size: 1.3rem;
+    margin: 20px;
+ }
+
+ .list-text{
+    color: black;
+ }
+
+ .step-number{
+    color: darkgoldenrod;
+ }
+
+ .step-heading{
+    font-size: 1.5rem;
+ }
+.steps article{
+    line-height: 1.5;
+}
+
+ 
+ .step{
+    font-size: 1.2rem;
+    margin: 10px;
+   
+ }
+
+ .step-image{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height: 400px;
+ }
