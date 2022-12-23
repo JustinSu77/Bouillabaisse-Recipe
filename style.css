@@ -8,6 +8,10 @@ body{
     color: white;
     padding: 20px;
 }
+
+.credit-text a{
+    color: aqua;
+}
 main{
     box-sizing: border-box;
     max-width: 600px;
