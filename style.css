@@ -1,6 +1,12 @@
+body{
+    background-image: url(./images/food_doodle_detail.jpg);
+}
 .credit-text{
     text-align: center;
     font-size: 1.8rem;
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
 main{
     box-sizing: border-box;
