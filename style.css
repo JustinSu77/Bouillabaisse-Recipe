@@ -1,3 +1,7 @@
+.credit-text{
+    text-align: center;
+    font-size: 1.8rem;
+}
 main{
     box-sizing: border-box;
     max-width: 600px;
@@ -80,6 +84,7 @@ main{
 
  .step-heading{
     font-size: 1.5rem;
+    margin-left: 10px;
  }
 .steps article{
     line-height: 1.5;
@@ -88,13 +93,43 @@ main{
  
  .step{
     font-size: 1.2rem;
-    margin: 10px;
+    margin: 20px;
    
  }
 
+ 
  .step-image{
     display: block;
     text-align: center;
     width: 100%;
     height: 400px;
+    margin-top: 10px;
+ }
+
+ .nutrition-table{
+    width: 70%;
+    margin: 10px auto;
+    border: 1px solid black;
+    
+ }
+
+ .nutrition-table td{
+    font-size: 1.2rem;
+    padding: 8px;
+    height: 20px;
+    width: 100%;
+   
+ }
+
+ .nutrition-table tr{
+    border-top: 1px solid black;
+ }
+
+ .bold{
+    font-weight: bold;
+ }
+
+ .sub-fact{
+     position: relative;
+     left: 15px;
  }
